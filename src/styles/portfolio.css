@@ -1,0 +1,133 @@
+.portfolio-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 1.3rem;
+  color: #cccccc;
+}
+
+.contact-info {
+  font-size: 0.95rem;
+  margin: 8px 0;
+  color: #aaaaaa;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #4da6ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #80c1ff;
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1e293b;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+
+.card {
+  background: #1a1d24;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.7);
+}
+
+/* SKILLS */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: #2a2f3a;
+  color: #4da6ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.skill-tag:hover {
+  background: #3b4455;
+}
+
+.soft-skill {
+  background: #3b2d1a;
+  color: #ffb84d;
+}
+
+.soft-skill:hover {
+  background: #5c4122;
+}
+
+/* PROJECT CARD */
+.project-card {
+  margin-top: 10px;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.btn-link {
+  display: inline-block;
+  margin: 5px 10px 0 0;
+  padding: 8px 14px;
+  background-color: #4da6ff;
+  color: #0f1115;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-link:hover {
+  background-color: #80c1ff;
+  transform: scale(1.05);
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: fadeIn 0.8s ease-in-out; }
+.slide-up { animation: fadeIn 1s ease-in-out; }
